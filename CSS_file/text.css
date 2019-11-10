@@ -1,0 +1,26 @@
+p{
+    color: blueviolet;
+    text-align:justify;
+    text-transform: lowercase;
+    text-indent: 20px;
+    line-height:1;
+    font-size: 20px;
+    font-style: bold; 
+}
+h2{
+    text-decoration:underline blue dotted ;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: rgb(224, 153, 21);
+    text-shadow: 2px -2px black;
+    text-transform: capitalize ;
+    font-style: bold;
+    font-variant: small-caps;
+
+}
+a{
+    text-decoration: none;
+    font-size: 80px;
+    font-style: italic;
+
+}

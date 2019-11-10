@@ -1,0 +1,19 @@
+img{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.blur{
+    filter: blur(9px);
+    filter: grayscale(100%);
+}
+.brightness{
+    filter: brightness(150%);
+   
+}
+/* all are  % 
+    saturation : value
+    blur       : px
+
+    drop-shadow : x y blur color;
+*/

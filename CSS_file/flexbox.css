@@ -1,0 +1,15 @@
+.flexbox{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: gray;
+    padding: 10px;
+}
+.flex_item{
+    font-size: 28px;
+    padding: 20px;
+    border: 1px solid red;
+    color: greenyellow;
+    margin: 10px;
+}

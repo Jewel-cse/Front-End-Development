@@ -1,0 +1,31 @@
+/*
+img{
+    width: 200px;
+    float: left;
+
+}
+p{
+    clear: both;
+
+}
+
+*/
+.box{
+    width: 25%;
+    height: 200px;
+    background: blue;
+    float: left;
+   
+}
+.box1{
+    background:red;
+}
+.box2{
+    background:black;
+}
+.box3{
+    background:teal;
+}
+.box4{
+    background:pink;
+}

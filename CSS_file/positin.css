@@ -1,0 +1,77 @@
+.Green{
+    max-width: 600px;
+    height: 350px;
+    background-color: rgb(182, 204, 35) ;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    margin: auto ;
+    
+} 
+.Blue{
+    max-width: 280px ;
+    height: 280px;
+    background: rgba(68, 36, 248, 0.959) ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    margin: auto ;
+    border-radius: 50%;
+
+
+} 
+.Red{
+    max-width: 180px ;
+    height: 180px;
+    background: rgba(248, 36, 36, 0.959) ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    margin: auto ;
+    border-radius: 50%;
+}
+.White{
+    max-width: 100px ;
+    height: 100px;
+    background: rgb(231, 227, 227) ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    margin: auto ;
+    border-radius: 50%;
+}
+.Black{
+    max-width: 30px ;
+    height: 30px;
+    background: rgba(5, 5, 5, 0.959) ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    margin: auto ;
+    border-radius: 50%;
+
+}
+.Jewel{
+    border: 3px dotted white;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    position: sticky;
+    top: 10px;
+}
+p{
+    padding-bottom: 1000px;
+    text-align: justify;
+
+}

@@ -1,0 +1,21 @@
+.grid_container{
+    
+    display: grid;
+    justify-content: center;        
+    align-content: space-between;
+    grid-template-columns: 100px ;
+    background: gray;
+    padding: 10px;
+    grid-gap: 20px;
+}
+.grid_item{
+    padding: 5px;
+    border: 1px solid red;
+    font-size: 25px;
+    text-align: center;
+    color: beige;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

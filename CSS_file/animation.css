@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    
+    /*animation-name: jewel;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-direction:alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+    */
+    animation: jewel 4s ease 2s 3 alternate backwards;
+}
+@keyframes jewel{
+   /* from{background-color: black;}
+    to{background-color: blue;}
+    for single animation
+    */ 
+    0%{background-color: black;left: 0;top: 0;}
+    40%{background-color: blueviolet;left: 200px;top: 0;}
+    50%{background-color: blue;left: 200px;top: 200px;}
+    70%{background-color: chartreuse;left: 0px;top:200px}
+    80%{background-color: coral;left: 0;top:0;}
+    
+}

@@ -1,0 +1,39 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    background:darkcyan;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 12px;
+    display: inline-block;
+}
+.drop_content{
+    background: palevioletred;
+    box-shadow: 0 8px 16px 0  rgb(0,0,0,.3);
+    display: none;
+    position: absolute;
+    min-width: 300px;
+}
+.drop_content a{
+    display: block;
+    color:blue;
+}
+ul li a:hover{
+    background: yellow;
+
+}
+.drop_content a:hover{
+    background: pink;
+}
+.drop_down:hover .drop_content{
+    display: block;
+}

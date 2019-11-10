@@ -1,0 +1,5 @@
+/* use div >p{},div ~p{},div +p{},div{} */
+div +p{
+    background-color: yellow ; 
+
+}

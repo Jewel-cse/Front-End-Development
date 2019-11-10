@@ -1,0 +1,25 @@
+span.a{
+    /* inline is defoult so no need to weidth and height*/
+    width: 100px; 
+    height: 100px;
+    display: inline;
+    background: yellow;
+    border: 2px solid black ;
+    padding: 3px ;
+}
+span.b{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: yellow;
+    border: 2px solid black ;
+    padding: 3px ;
+}
+span.c{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: yellow;
+    border: 2px solid black ;
+    padding: 3px ;
+}

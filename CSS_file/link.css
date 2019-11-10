@@ -1,0 +1,27 @@
+a{
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: blue;
+    color: red; 
+}
+/*
+a:visited{
+    text-decoration: none;
+    background: blue;
+    color: red; 
+}
+*/
+a:hover{
+    text-decoration: none;
+    background-color:red;
+    color: blue; 
+}
+a:active{
+    text-decoration: none;
+    background-color: rgb(28, 231, 45);
+    color: rgba(223, 62, 129, 0.972); 
+}
+

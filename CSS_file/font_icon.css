@@ -1,0 +1,18 @@
+body{
+    background-color:black ;
+}
+
+.fa-apple{
+    margin-left: 600px;
+    margin-top: 150px;
+    color:azure;
+    font-size:200px;
+}
+
+/* for material_icon.html */
+.icon i{
+    font-size: 50ch;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: red ;
+}

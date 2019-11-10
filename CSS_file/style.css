@@ -1,0 +1,11 @@
+
+p{
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 5px solid #4169e1 ;
+    border-radius: 5px;
+    outline:black dotted medium; 
+    outline-offset: 10px;
+
+}

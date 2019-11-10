@@ -1,0 +1,13 @@
+.bg{
+    width: 400px;
+    height: 350px;
+    background: url("../assets/baby.jpeg") no-repeat center ;
+    overflow: hidden;
+}
+.box p{
+    text-align: center ;
+    background: white ;
+    padding: 30px ;
+    margin-top:120px;
+    opacity: .5;
+}
