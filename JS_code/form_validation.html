@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+
+<form  action="create.html" onsubmit="return validateForm()" method="post">
+  Name  : <input type="text" name="name"id="name">
+  E-mail: <input type="email"name="email" id="email" >
+  Passward:<input type="password"name="password" id="password" >
+  <input type="submit" name ="submit"value="Submit">
+  <div id ="msg"></div>
+
+  <script>
+    function validateForm() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var passward = document.getElementById('password').value;
+
+      if (name == "" ||email =="" || password =="") {
+        alert("All field must be filled out");
+        return false;
+      }
+      else if(name.length<4){
+        document.getElementById("msg").innerHTML = "Name must be at least 4 character !";
+        return false;
+      }
+      else if(password.length<8){
+        document.getElementById("msg").innerHTML = "Password must be at least 4 character !";
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+    </script>
+</form>
+
+</body>
+</html>
